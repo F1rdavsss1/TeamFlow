@@ -1,0 +1,32 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: var(--bg);
+}
+
+.code {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--surface-3);
+  line-height: 1;
+}
+
+.message {
+  font-size: 18px;
+  color: var(--text-2);
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary);
+  margin-top: 8px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
